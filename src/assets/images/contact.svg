@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Illustration d'une enveloppe et d'un avion en papier">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#ede9fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#g)"/>
+  <circle cx="100" cy="330" r="50" fill="#ffffff" opacity="0.6"/>
+  <circle cx="560" cy="300" r="30" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Trajectoire -->
+  <path d="M90 150Q230 40 410 105" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 14" opacity="0.6"/>
+
+  <!-- Avion en papier -->
+  <polygon points="420,108 580,48 506,172 474,132" fill="#2563eb"/>
+  <polygon points="474,132 580,48 440,124" fill="#1d4ed8"/>
+
+  <!-- Enveloppe -->
+  <rect x="150" y="190" width="340" height="190" rx="18" fill="#ffffff" stroke="#2563eb" stroke-width="6"/>
+  <path d="M154 200l166 108 166-108" fill="none" stroke="#2563eb" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M154 372l118-94M486 372l-118-94" fill="none" stroke="#93c5fd" stroke-width="5" stroke-linecap="round"/>
+</svg>
